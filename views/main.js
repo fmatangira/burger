@@ -13,7 +13,28 @@ const render = function({name, devour, createdAt}) {
 
     </head>
     <body>
-        <h1 class="jumbotron">${name}</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 burgerCol">
+                    <img src="/images/Cheeseburger.png" alt="" class="burgerimg">
+                </div>
+                <div class="col-6 burgerCol">
+                    <img src="/images/Cheeseburger.png" alt="" class="burgerimg">
+                </div>
+                <div class="col-3 burgerCol">
+                    <img src="/images/Cheeseburger.png" alt="" class="burgerimg">
+                </div>
+                <div class="col-12 id="burgerDiv">
+                    <h3 id="burgerTitle">Eat-Da-Burger!!</h3>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-12 burgerCol">
+                    <h3 id="burgerTitle">Eat-Da-Burger!!</h3>
+                </div>
+            </div> -->
+        </div>
+        <h1>${name}</h1>
         <h1>${devour}</h1>
         <h1>${createdAt}</h1>
     </body>

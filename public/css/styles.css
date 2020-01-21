@@ -1,3 +1,17 @@
 body {
-    background-color: blue;
+    background-color: yellow;
+}
+
+.burgerimg {
+    width: 30%;
+}
+
+.burgerCol {
+    text-align: center;
+}
+
+#burgerTitle {
+    padding-top: 40px;
+    font-size: 400%;
+    text-align: center;
 }
