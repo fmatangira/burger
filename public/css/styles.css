@@ -12,6 +12,23 @@ body {
 
 #burgerTitle {
     padding-top: 40px;
-    font-size: 400%;
     text-align: center;
+}
+
+#eatTitle,#devourTitle {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#burgerEatName,.textArea,.form-control,.test {
+    text-align: center;
+}
+
+.textBox {
+    width: 30%;
+}
+
+.textArea {
+    padding-top: 30px;
 }
