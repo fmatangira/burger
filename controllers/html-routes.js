@@ -41,7 +41,7 @@ module.exports = function (app) {
             devour: req.body.devour
         }).then(() =>
             // console.log(data)
-            res.redirect('/')
+            res.json('success')
 
         );
     })
@@ -55,6 +55,6 @@ module.exports = function (app) {
             where: {
                 id: parseInt(req.body.id)
             }
-        }).then(()=> res.redirect('/'))
+        }).then(()=> res.json('success'))
     })
 }
