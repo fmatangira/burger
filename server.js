@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const db = require('./models');
 
 // Use the express.static middleware to serve static content for the app from the "public" directory in the application directory.
